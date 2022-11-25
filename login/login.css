@@ -1,0 +1,88 @@
+form {
+    display: flex;
+}
+
+
+.image {
+    width: 720px;
+    height: 900px;
+    background-image: url('/assets/Imagem\ Esquerda.svg')
+}
+
+
+.login .inputs {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+
+
+    align-items: center;
+}
+
+.welcome {
+    display: flex;
+    position: absolute;
+    margin: 240px 400px 641px 122px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+h2 {
+    display: flex;
+    position: absolute;
+    margin: 268px 100px 594px 121px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+}
+
+input {
+    color: #968B8B;
+    width: 476px;
+    height: 51px;
+    margin-top: 16px;
+    padding: 16px;
+
+    background-color: #FDFAFA;
+    border: 1px solid #E8E8E8;
+
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.inputs {
+    margin: 338px 120px 511px 122px;
+
+
+}
+
+button {
+    color: white;
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+
+    margin-top: 72px;
+    width: 476px;
+    height: 51px;
+
+    cursor: pointer;
+}
+
+.register {
+    font-family: 'Roboto', sans-serif;
+    font-size: 19px;
+    margin: 674px 130px 180px 240px;
+}
+
+h3 {
+    padding: 2px;
+    color: red;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}

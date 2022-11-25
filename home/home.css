@@ -1,0 +1,294 @@
+.top {
+    position: relative;
+    background-image: url('/assets/Rectangle\ top.svg');
+    display: flex;
+    align-content: space-between;
+
+    width: 100%;
+    height: 70px;
+
+    color: #FFFFFF;
+
+}
+
+h2 {
+    position: absolute;
+    align-self: center;
+    margin-left: 50%;
+
+    font-family: 'Rokkitt', serif;
+    font-size: 24px;
+}
+
+button {
+    width: 325px;
+    height: 51px;
+    margin-top: 102px;
+    margin-left: 242px;
+
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #04C45C;
+    border: 1px solid #04C45C;
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    z-index: 1;
+}
+
+.logout {
+    position: absolute;
+    margin-left: 95%;
+    margin-top: 24px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 242px;
+    margin-top: 32px;
+
+}
+
+.header,
+.contacts {
+    width: 956px;
+    height: 46px;
+    padding-left: 32px;
+    padding-top: 16px;
+
+    color: #1C1414;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header {
+    font-weight: 700;
+    background-color: #F4F0F0;
+
+}
+
+.contacts {
+    font-weight: 400px;
+
+}
+
+.delete {
+    margin-right: 10px;
+}
+
+.contacts div {
+    min-width: 25%;
+}
+
+/* A partir daqui é modal excluir contato */
+
+
+.modal {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(16, 15, 15, 0.56);
+    border: 1px solid rgba(16, 15, 15, 0.56);
+
+    visibility: hidden;
+
+    z-index: 5;
+}
+
+.close {
+    position: absolute;
+    left: 440px;
+    top: 20px;
+
+    cursor: pointer;
+}
+
+.box,
+.buttons,
+.h2-modal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.box {
+    width: 476px;
+    height: 319px;
+
+    position: absolute;
+    top: 50px;
+    left: 500px;
+
+    background-color: #FFFDFD;
+    margin-top: 140px;
+    border: 1px solid rgb(54, 51, 51);
+    border-radius: 8px;
+
+}
+
+span {
+    position: absolute;
+    top: 100px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.h2-modal {
+    position: absolute;
+    margin: 56px 0px 0px 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.buts {
+
+    right: 50px;
+    bottom: 60px;
+    color: #FFFFFF;
+    margin-top: 31.54px;
+    padding-top: 2px;
+
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    width: 364px;
+    height: 50px;
+}
+
+.green {
+    position: absolute;
+    bottom: 120px;
+    background-color: #04C45C;
+    border: 1px solid #04C45C;
+    border-radius: 8px;
+}
+
+.red {
+    position: absolute;
+
+    margin-top: 8px;
+
+    background-color: #FB0615;
+    border: 1px solid #FB0615;
+    opacity: 0.65;
+    border-radius: 8px;
+}
+
+/* A partir daqui é o modal novo contato */
+
+.modal-add {
+    display: flex;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(16, 15, 15, 0.56);
+    border: 1px solid rgba(16, 15, 15, 0.56);
+
+    visibility: hidden;
+
+    z-index: 5;
+}
+
+.close-add {
+    position: absolute;
+    left: 440px;
+    top: 20px;
+
+    cursor: pointer;
+}
+
+.box-add,
+.buts-add,
+.h2-modal-add,
+input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.h2-modal-add {
+    position: relative;
+    top: 56px;
+    right: 25%;
+}
+
+input {
+    position: relative;
+    top: 124px;
+    margin-bottom: 17px;
+
+    width: 364px;
+    height: 50px;
+
+    padding: 24px;
+
+    font-size: 16px;
+}
+
+.box-add {
+    width: 476px;
+    height: 563px;
+
+    position: absolute;
+    top: -80px;
+    left: 400px;
+
+    background-color: #FFFDFD;
+    margin-top: 140px;
+    border: 1px solid rgb(54, 51, 51);
+    border-radius: 8px;
+
+}
+
+.buts-add {
+    right: 50px;
+    bottom: 60px;
+    color: #FFFFFF;
+    margin-top: 31.54px;
+    padding-top: 14px;
+
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+
+    width: 364px;
+    height: 50px;
+}
+
+.green-add {
+    position: absolute;
+    bottom: 120px;
+    background-color: #04C45C;
+    border: 1px solid #04C45C;
+    border-radius: 8px;
+}
+
+.red-add {
+    position: absolute;
+
+    margin-top: 8px;
+
+    background-color: #FB0615;
+    border: 1px solid #FB0615;
+    opacity: 0.65;
+    border-radius: 8px;
+}

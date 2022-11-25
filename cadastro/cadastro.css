@@ -1,0 +1,74 @@
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    height: 900px;
+}
+
+.header,
+.inputs,
+.buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.image {
+    background-image: url('/assets/Imagem\ Direita.svg');
+
+    width: 720px;
+    height: 900px;
+}
+
+.header {
+    font-size: 24px;
+    margin: 240px 123px 40px 122px;
+}
+
+input {
+    width: 476px;
+    height: 51px;
+    margin-top: 16px;
+    padding: 16px;
+
+    color: #968B8B;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+
+    background-color: #FDFAFA;
+    border: 1px solid #E8E8E8;
+}
+
+button {
+    width: 475px;
+    height: 50px;
+    margin-top: 16px;
+
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.buttons {
+    margin-top: 72px;
+    margin-bottom: 96px;
+}
+
+.confirm {
+    background-color: #04C45C;
+    border: 1px solid #04C45C;
+}
+
+.cancel {
+    background-color: #FB0615;
+    border: 1px solid #FB0615;
+    opacity: 0.65;
+}
